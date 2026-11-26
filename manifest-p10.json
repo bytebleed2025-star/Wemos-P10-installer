@@ -1,0 +1,12 @@
+{
+  "name": "P10 Game Stopwatch",
+  "version": "2.20",
+  "builds": [
+    {
+      "chipFamily": "ESP8266",
+      "parts": [
+        { "path": "firmware/p10/firmware.bin", "offset": 0 }
+      ]
+    }
+  ]
+}

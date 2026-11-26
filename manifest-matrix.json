@@ -1,0 +1,14 @@
+{
+  "name": "P5 MatrixText 192x96",
+  "version": "1.0",
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "firmware/matrix/bootloader.bin", "offset": 4096 },
+        { "path": "firmware/matrix/partitions.bin", "offset": 32768 },
+        { "path": "firmware/matrix/firmware.bin", "offset": 65536 }
+      ]
+    }
+  ]
+}
